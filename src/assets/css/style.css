@@ -1,0 +1,11 @@
+body {
+  background-color: #a17eb6;
+}
+
+h1,
+h3,
+li,
+p {
+  color: #fff;
+  list-style-type: none;
+}
