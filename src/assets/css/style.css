@@ -1,11 +1,252 @@
-body {
+/* body {
   background-color: #a17eb6;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+  list-style-type: none;
+} */
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+/**
+ * Remove anchor text-decoration
+ */
+a {
+  text-decoration: none;
+}
+
+/**
+   * Remove list-style
+   */
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 h1,
+h2,
 h3,
-li,
-p {
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.header_general {
+  width: 100%;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #42145f;
+  display: flex;
+  position: fixed;
+}
+
+header .logo {
+  margin: 10px 66px 10px 14px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+header .logo .menu {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Montserrat";
   color: #fff;
-  list-style-type: none;
+  text-transform: uppercase;
+}
+
+li a {
+  display: block;
+  padding: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+
+li a:hover {
+  background-color: #fff;
+  transition: 0.4ms;
+  color: #42145f;
+  font-weight: 500;
+}
+
+ul li a.active {
+  background-color: #fff;
+  color: #42145f;
+}
+
+.bg_home {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bg_home .info_home {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 0px 40px;
+}
+
+.bg_home .info_home h3 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-family: monospace;
+}
+
+.img_home {
+  margin-left: 40px;
+}
+
+.boxes {
+  display: flex;
+  margin-top: 50px;
+}
+
+.down_content {
+  width: 100%;
+  height: 500px;
+  display: inline-flex;
+  background-color: #ccc;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.down_content .ul_services {
+  width: 500px;
+  height: 400px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.service1 {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009fac;
+}
+
+.service2 {
+  width: 500px;
+  height: 100px;
+  background-color: #ce3b57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service3 {
+  width: 500px;
+  height: 100px;
+  background-color: #009fac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service4 {
+  width: 500px;
+  height: 100px;
+  background-color: #ce3b57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_services {
+  width: 500px;
+  height: 300px;
+  background-color: #eee;
+}
+
+.foo {
+  position: fixed;
+  width: 80px;
+  height: 100%;
+  left: 0%;
+  top: 5%;
+  background-color: #42145f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.foo .foo_icons {
+  padding: 200px;
+  font-size: 30px;
+  color: #fff;
+}
+
+h1 {
+  padding: 20px;
 }
